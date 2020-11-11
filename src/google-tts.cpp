@@ -38,8 +38,7 @@ String GoogleTTS::urlencode(String str)
 }
 
 String GoogleTTS::getSpeechUrl(String text, String lang) {
-    // return String("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl="+lang+"&q="+this->urlencode(text))
-    return String("http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl="+lang+"&q="+this->urlencode(text));
+    return String("https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl="+lang+"&q="+this->urlencode(text));
 }
 
 
