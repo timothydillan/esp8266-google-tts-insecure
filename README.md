@@ -1,5 +1,5 @@
 # esp8266-google-tts
-Simple Google TTS Library for esp8266.
+Modified simple Google TTS Library for esp8266 originally by horihiro.
 
 This library generates the link to speech mp3 file from text using Google Translate Service.
 
